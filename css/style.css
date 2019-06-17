@@ -89,4 +89,13 @@ footer {
   width: 50px;
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
+.big {
+  height: 325px;
+  width: 365px;
+}
+
 /*# sourceMappingURL=style.css.map */
