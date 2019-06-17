@@ -72,12 +72,21 @@ li a:hover {
   width: 600px;
 }
 
+footer {
+  background-color: black;
+  color: white;
+}
+
 .foot {
   padding-left: 30%;
   padding-right: 30%;
-  background-color: black;
-  color: white;
-  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fa {
+  height: 50px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
