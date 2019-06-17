@@ -1,23 +1,28 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "lexi-jayy's portfolio",
+  "version": "1.0.1",
+  "description": "lexi-jayy portfolio",
   "main": "Gruntfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "grunt-cli": "^1.3.2"
   },
-  "author": "lexi-jayy critchley",
-  "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "grunt": "^1.0.3",
-    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-uglify": "^4.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
-    "sass": "^1.17.2"
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0"
   },
-  "dependencies": {}
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexi-jayy/portfolio.git"
+  },
+  "author": "lexi-jayy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexi-jayy/portfolio/issues"
+  },
+  "homepage": "https://github.com/lexi-jayy/portfolio#readme"
 }

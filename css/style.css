@@ -9,6 +9,12 @@ header {
   height: 400px;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   font-size: 20px;
 }
@@ -46,7 +52,8 @@ li a:hover {
 }
 
 .title {
-  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
   margin-top: 150px;
   font-size: 70px;
 }
@@ -54,6 +61,23 @@ li a:hover {
 #small {
   height: 25px;
   width: 60px;
+}
+
+#intro {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+#wdth {
+  width: 600px;
+}
+
+.foot {
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: black;
+  color: white;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
