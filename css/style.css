@@ -20,7 +20,7 @@ header {
 }
 
 .navbar-nav {
-  margin-left: 30%;
+  margin-left: 37%;
   text-align: center;
 }
 
@@ -86,6 +86,7 @@ li a:hover {
 footer {
   background-color: black;
   color: white;
+  height: 50px;
 }
 
 .foot {
@@ -102,13 +103,37 @@ footer {
   margin-top: 150px;
 }
 
+#NZAModal {
+  margin-top: 150px;
+}
+
 .img-responsive {
   max-width: 100%;
 }
 
 .big {
   height: 325px;
-  width: 500px;
+  width: 410px;
+}
+
+.row {
+  display: -webkit-box;
+  width: 2000px;
+}
+
+.col {
+  width: 5000px;
+  padding-bottom: 30px;
+}
+
+.mdlimg {
+  height: 325px;
+}
+
+.column {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

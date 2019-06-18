@@ -9,7 +9,7 @@
 }
 
 .navbar-nav {
-  margin-left: 30%;
+  margin-left: 37%;
   text-align: center;
 }
 .nav-link {
@@ -71,6 +71,7 @@ li a {
     footer{
       background-color: black;
       color: white;
+      height: 50px;
     }
 
     .foot{
@@ -87,6 +88,10 @@ li a {
   margin-top: 150px;
 }
 
+#NZAModal{
+  margin-top: 150px;
+}
+
   //   .row {
   //     outline: 5px red solid;
   //     display: inline-block;
@@ -96,5 +101,25 @@ li a {
   }
   .big{
     height: 325px;
-    width: 500px;
+    width: 410px;
+}
+
+.row{
+  display: -webkit-box;
+  width: 2000px;
+}
+
+.col {
+  width: 5000px;
+  padding-bottom: 30px;
+}
+
+.mdlimg{
+  height: 325px;
+}
+
+.column{
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor:pointer;
 }
