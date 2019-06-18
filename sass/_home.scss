@@ -4,7 +4,15 @@
 	padding:0;
 }
 
-a {
+.bg-dark{
+  background-color: #333!important;
+}
+
+.navbar-nav {
+  margin-left: 30%;
+  text-align: center;
+}
+.nav-link {
     font-size: 20px;
   }
 #home{
@@ -16,7 +24,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-left: 30%;
-  padding-right: 30%;
   overflow: hidden;
   background-color: #333;
 }
@@ -37,8 +44,7 @@ li a {
     }
   
     .title {
-      padding-left: 30%;
-      padding-right: 30%;
+      text-align: center;
       margin-top: 150px;
       font-size: 70px;
   }
@@ -55,10 +61,12 @@ li a {
     }
 
     #wdth{
-      width: 600px;
+      text-align: left;
     }
 
-
+#main{
+  text-align: center;
+}
 
     footer{
       background-color: black;
@@ -66,10 +74,8 @@ li a {
     }
 
     .foot{
-      padding-left: 30%;
-      padding-right: 30%;
-      margin-right: auto;
-      margin-left: auto;
+      text-align: center;
+      float: center;
     }
 
     .fa{
@@ -88,8 +94,7 @@ li a {
   .img-responsive {
       max-width: 100%;
   }
-
   .big{
     height: 325px;
-    width: 365px;
+    width: 500px;
 }
