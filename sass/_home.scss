@@ -9,7 +9,7 @@
 }
 
 .navbar-nav {
-  margin-left: 37%;
+  margin-left: 35%;
   text-align: center;
 }
 .nav-link {
@@ -54,9 +54,15 @@ li a {
       width: 60px;
     }
 
+    #thumb {
+      width: 25px;
+      height: 25px;
+      color: white;
+    }
+
 
     #intro{
-      padding-left: 30%;
+      padding-left: 15%;
       padding-right: 30%;
     }
 
@@ -75,13 +81,8 @@ li a {
     }
 
     .foot{
+      padding-top: 10px;
       text-align: center;
-      float: center;
-    }
-
-    .fa{
-      height: 50px;
-      width: 50px;
     }
 
 #myModal{
@@ -91,14 +92,6 @@ li a {
 #NZAModal{
   margin-top: 150px;
 }
-
-  //   .row {
-  //     outline: 5px red solid;
-  //     display: inline-block;
-  // }
-  .img-responsive {
-      max-width: 100%;
-  }
   .big{
     height: 325px;
     width: 410px;
@@ -106,12 +99,6 @@ li a {
 
 .row{
   display: -webkit-box;
-  width: 2000px;
-}
-
-.col {
-  width: 5000px;
-  padding-bottom: 30px;
 }
 
 .mdlimg{
@@ -121,5 +108,12 @@ li a {
 .column{
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 50px;
   cursor:pointer;
+}
+
+.innercon{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
 }
