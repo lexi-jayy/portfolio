@@ -11,29 +11,36 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 </head>
 <header id="home">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Me</a>
-          </li>
-          <li class="nav-item">
-              <!-- Brand -->
-              <a class="navbar-brand" ><img id="small" src="resources/LJlogo.png"></a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link" href="credits.html">Credits</a>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="navbar-brand" href="index.html">Home</a>
                 </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" ><img id="small" src="resources/LJlogo.png"></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="credits.html">Credits</a>
+              </li> 
+          </ul>
+        </div> 
       </nav>
               <div class="title">Lexi-jayy Portfolio</div>
 </header>
@@ -42,7 +49,7 @@
 
     <div id="intro">
         <h1 id="main">Welcome</h1>
-        <p id="wdth">As a recent graduate i have a good understanding of what makes an interface easy for a user to navigate.
+        <p id="wdth">As i am about to graduate i have a good understanding of what makes an interface easy for a user to navigate.
             i can make it work so that they have an easy experience.
         </p>
     </div>
@@ -50,16 +57,49 @@
       <div class="innercon">
         <div class="row">
             <div class="column">
+                <img src="resources/FDX.png" class="img-fluid big img-responsive" data-toggle="modal" data-target="#FDCModal">
+                </div>
+            <div class="column">
             <img src="resources/3degrees.png" class="img-fluid big img-responsive" data-toggle="modal" data-target="#myModal">
             </div>
             <div class="column">
             <img src="resources/NZA.png" class="img-fluid big img-responsive" data-toggle="modal" data-target="#NZAModal">
             </div>
-            <div class="column">
+            <!-- <div class="column">
             <img src="resources/MHA.png" class="img-fluid big img-responsive">
-            </div>
+            </div> -->
         </div>
       </div>
+
+
+
+
+      <div class="modal" id="FDCModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">FusionDigital Communications</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                  <img src="resources/FDX.png" class="img-fluid mdlimg img-responsive">
+                FusionDigital Communications is a service based business that sells computer parts and software i chose this for my final summative at yoobee
+                <a href="http://165.22.110.182/">FusionDigital Communications</a>
+
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
 <div class="modal" id="myModal">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -102,6 +142,7 @@
             <div class="modal-body">
                 <img src="resources/NZA.png" class="img-fluid mdlimg img-responsive">
               New Zealand Accomodation(NZA) is a summative project i did for course that involved the used of javascript to make it functional
+              <a href="https://lexi-jayy.github.io/">New Zealand Accomodation</a>
             </div>
       
             <!-- Modal footer -->
