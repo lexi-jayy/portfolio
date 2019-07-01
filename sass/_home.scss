@@ -1,119 +1,18 @@
-*{
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-}
 
-.bg-dark{
-  background-color: #333!important;
-}
-
-.navbar-nav {
-  margin-left: 35%;
-  text-align: center;
-}
-.nav-link {
-    font-size: 20px;
-  }
 #home{
-    background-image: url('../resources/student.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: center;
-  overflow: hidden;
-  background-color: #333;
-}
-li {
-  float: left;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-    
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
-      background-color: #111;
-    }
-  
-    .title {
-      text-align: center;
-      margin-top: 150px;
-      font-size: 70px;
-  }
-  
-    #small {
-      height: 25px;
-      width: 60px;
-    }
-
-    #thumb {
-      width: 25px;
-      height: 25px;
-      color: white;
-    }
-
-
-    #intro{
-      padding-left: 15%;
-      padding-right: 30%;
-    }
-
-    #wdth{
-      text-align: left;
-    }
-
-#main{
-  text-align: center;
+  background-image: url('../resources/student.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-    footer{
-      background-color: black;
-      color: white;
-      height: 50px;
-    }
-
-    .foot{
-      padding-top: 10px;
-      text-align: center;
-    }
-
-#myModal{
-  margin-top: 150px;
+#small {
+  height: 35px;
+  width: 75px;
 }
 
-#NZAModal{
-  margin-top: 150px;
-}
-  .big{
-    height: 325px;
-    width: 410px;
-}
 
-.row{
-  display: -webkit-box;
-}
 
-.mdlimg{
+.big{
   height: 325px;
-}
-
-.column{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 50px;
-  cursor:pointer;
-}
-
-.innercon{
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 20px;
+  width: 410px;
 }
