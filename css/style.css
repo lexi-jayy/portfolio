@@ -9,6 +9,12 @@ header {
   height: 400px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

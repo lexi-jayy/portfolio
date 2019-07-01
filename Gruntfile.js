@@ -12,15 +12,12 @@ module.exports = function(grunt) {
           dest: 'js/script.min.js'
         }
       },
-      // watch: {
-      //   css: {
-      //     files: 'css/style.css',
-      //     tasks: ['sass'],
-      //     options: {
-      //       livereload: true,
-      //     },
-      //   },
-      // },
+      watch: {
+        css: {
+          files: '**/*.scss',
+          tasks: ['sass']
+        },
+      },
       sass: {                              // Task
         dist: {                            // Target
           options: {                       // Target options
@@ -46,6 +43,6 @@ module.exports = function(grunt) {
  
  
     // Default task(s).
-    grunt.registerTask('default', ['uglify','sass','jshint']);
+    grunt.registerTask('default', ['uglify','sass','jshint', 'watch']);
  
   };
