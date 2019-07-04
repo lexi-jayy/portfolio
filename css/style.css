@@ -17,11 +17,10 @@ header {
 footer {
   background-color: black;
   color: white;
-  height: 50px;
+  height: auto;
 }
 
 .foot {
-  padding-top: 10px;
   text-align: center;
 }
 
